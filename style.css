@@ -105,7 +105,9 @@ header button {
   color: #f1d415;
   background: none;
   border: none;
+  font-weight: 500;
   letter-spacing: 0.5px;
+  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
 }
 header button .active {
   color: #984447;
@@ -157,9 +159,9 @@ h1 {
   letter-spacing: 1px;
   color: #f1d415;
   font-weight: 600;
-  margin-top: -30px;
+  margin-top: -38px;
   text-shadow: 3px 3px 30px rgba(0, 0, 0, 0.9);
-  transform: translateX(22%);
+  transform: translateX(31.5%);
   position: relative;
 }
 
