@@ -360,6 +360,7 @@ h1 {
 }
 #page3 .video {
   grid-area: video;
+  display: grid;
 }
 
 #page3 .obrazky {
@@ -399,4 +400,8 @@ a {
 img {
   width: 100%;
   border-radius: 5px;
+}
+iframe {
+  border-radius: 5px;
+  max-width: 100%;
 }
