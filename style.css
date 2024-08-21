@@ -293,7 +293,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 35%;
   grid-template-areas:
-    "nadpisRed nadpisRed obrazky" "info info obrazky"
+    "info info obrazky"
     "video video obrazky";
   gap: 20px;
   padding: 60px;
@@ -355,12 +355,11 @@ h1 {
   text-shadow: 3px 3px 20px rgba(255, 255, 255, 0.3);
   margin-bottom: 300px;
 }
-#page3 h3,
-#page4 h3 {
+#page3 h3 {
   font-size: 36px;
   font-weight: 600;
   padding-bottom: 0;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
 }
 #page3 h4 {
   font-size: 30px;
