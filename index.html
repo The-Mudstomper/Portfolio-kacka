@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="photoswipe.css" />
   </head>
   <body>
     <div class="video-container">
@@ -127,7 +128,13 @@
                 ></iframe>
               </div>
               <div class="grid-item obrazky">
-                <img src="kamiony.png" alt="Portfolio" />
+                <a
+                  href="kamiony.png"
+                  data-pswp-width="331"
+                  data-pswp-height="689"
+                  target="_blank"
+                  ><img src="kamiony.png" alt="Portfolio"
+                /></a>
               </div>
             </div>
           </section>
@@ -160,13 +167,31 @@
                 ></iframe>
               </div>
               <div class="grid-item obrazek1">
-                <img src="ecobat_rozcestnik.png" alt="Portfolio" />
+                <a
+                  href="ecobat_rozcestnik.png"
+                  data-pswp-width="1190"
+                  data-pswp-height="669"
+                  target="_blank"
+                  ><img src="ecobat_rozcestnik.png" alt="Portfolio"
+                /></a>
               </div>
               <div class="grid-item obrazek2">
-                <img src="ecobat_distributori.png" alt="Portfolio" />
+                <a
+                  href="ecobat_distributori.png"
+                  data-pswp-width="1313"
+                  data-pswp-height="739"
+                  target="_blank"
+                  ><img src="ecobat_distributori.png" alt="Portfolio"
+                /></a>
               </div>
               <div class="grid-item obrazek3">
-                <img src="ecobat_kurz.png" alt="Portfolio" />
+                <a
+                  href="ecobat_kurz.png"
+                  data-pswp-width="1222"
+                  data-pswp-height="688"
+                  target="_blank"
+                  ><img src="ecobat_kurz.png" alt="Portfolio"
+                /></a>
               </div>
             </div>
           </section>
@@ -182,16 +207,40 @@
                 <p>Ukázkový návrh prostředí mobilní rezervační aplikace.</p>
               </div>
               <div class="grid-item video">
-                <img src="Splash.gif" alt="Portfolio" />
+                <a
+                  href="Splash.gif"
+                  data-pswp-width="360"
+                  data-pswp-height="640"
+                  target="_blank"
+                  ><img src="Splash.gif" alt="Portfolio"
+                /></a>
               </div>
               <div class="grid-item obrazek1">
-                <img src="Home page zelená.png" alt="Portfolio" />
+                <a
+                  href="Home page zelená.png"
+                  data-pswp-width="360"
+                  data-pswp-height="640"
+                  target="_blank"
+                  ><img src="Home page zelená.png" alt="Portfolio"
+                /></a>
               </div>
               <div class="grid-item obrazek2">
-                <img src="detail letu.png" alt="Portfolio" />
+                <a
+                  href="detail letu.png"
+                  data-pswp-width="360"
+                  data-pswp-height="640"
+                  target="_blank"
+                  ><img src="detail letu.png" alt="Portfolio"
+                /></a>
               </div>
               <div class="grid-item obrazek3">
-                <img src="Detail místa.png" alt="Portfolio" />
+                <a
+                  href="Detail místa.png"
+                  data-pswp-width="360"
+                  data-pswp-height="640"
+                  target="_blank"
+                  ><img src="Detail místa.png" alt="Portfolio"
+                /></a>
               </div>
             </div>
             <a
@@ -203,5 +252,35 @@
         </div>
       </div>
     </div>
+    <script type="module">
+      import PhotoSwipeLightbox from "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe-lightbox.esm.min.js";
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: "#page4",
+        children: "a",
+        pswpModule: () =>
+          import(
+            "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.esm.min.js"
+          ),
+      });
+      lightbox.init();
+      const lightbox2 = new PhotoSwipeLightbox({
+        gallery: "#page5 .grid-container",
+        children: "a",
+        pswpModule: () =>
+          import(
+            "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.esm.min.js"
+          ),
+      });
+      lightbox2.init();
+      const lightbox3 = new PhotoSwipeLightbox({
+        gallery: "#page3 .obrazky",
+        children: "a",
+        pswpModule: () =>
+          import(
+            "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.esm.min.js"
+          ),
+      });
+      lightbox3.init();
+    </script>
   </body>
 </html>
