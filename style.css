@@ -60,7 +60,7 @@ button {
   z-index: 3;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(130, 177, 213, 0.2);
+  background-color: rgba(245, 237, 238, 0.6);
   border-bottom: 1px solid #37484b7a;
   height: 100px;
 }
@@ -94,12 +94,11 @@ header p {
 }
 header button {
   font-size: 30px;
-  color: #f1d415;
+  color: #1c3040;
   background: none;
   border: none;
   font-weight: 500;
   letter-spacing: 0.5px;
-  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
   z-index: 4;
 }
 header button .active {
@@ -196,9 +195,8 @@ h1 {
   grid-template-columns: 1.5fr 1fr 1fr; /* Large intro column and two smaller columns */
   grid-template-areas: "intro design design" "intro design design" "intro localization localization" "intro localization localization" "intro wordpress wordpress" "intro2 wordpress wordpress" "intro2 CV contact";
   gap: 20px;
-  padding: 60px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 40px;
+
   background-color: rgba(
     28,
     48,
@@ -300,9 +298,8 @@ h1 {
     "info info obrazky"
     "video video obrazky";
   gap: 20px;
-  padding: 60px;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding: 40px;
+
   background-color: rgba(
     245,
     237,
@@ -395,9 +392,8 @@ iframe {
     "info info obrazek1"
     "obrazek2 video video" "obrazek3 video video";
   gap: 20px;
-  padding: 60px;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding: 40px;
+
   background-color: rgba(
     28,
     48,
@@ -474,9 +470,8 @@ iframe {
     "info info info obrazek1"
     "video obrazek2 obrazek3 obrazek1";
   gap: 20px;
-  padding: 60px;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding: 40px;
+
   background-color: rgba(
     245,
     237,
