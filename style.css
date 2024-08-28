@@ -574,7 +574,8 @@ iframe {
 #page5 .obrazek3,
 #page4 .obrazek1,
 #page4 .obrazek2,
-#page4 .obrazek3 {
+#page4 .obrazek3,
+#page3 .obrazky {
   background-color: unset;
   padding: 0;
 }
