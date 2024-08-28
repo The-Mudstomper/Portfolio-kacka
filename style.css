@@ -166,7 +166,6 @@ h1 {
 #page2 button {
   display: inline-block;
   padding: 10px 50px;
-  margin-top: 25px;
   background-color: #f1d415;
   color: #1c3040;
   border-radius: 5px;
@@ -193,7 +192,7 @@ h1 {
 #page2 .grid-container {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr; /* Large intro column and two smaller columns */
-  grid-template-areas: "intro design design" "intro design design" "intro localization localization" "intro localization localization" "intro wordpress wordpress" "intro2 wordpress wordpress" "intro2 CV contact";
+  grid-template-areas: "intro design design" "intro design design" "intro localization localization" "intro localization localization" "intro wordpress wordpress" "intro wordpress wordpress" "intro2 CV contact";
   gap: 20px;
   padding: 40px;
 
@@ -230,6 +229,7 @@ h1 {
 #page2 .intro2 {
   grid-column: 1 / span 1;
   grid-area: intro2;
+  padding: 0;
 }
 #page2 .design {
   grid-area: design;
@@ -259,6 +259,7 @@ h1 {
 #page2 .wordpress h3 {
   color: #f1d415;
   margin-top: 0;
+  margin-bottom: 5px;
   font-weight: 500;
 }
 #page2 .CV,
