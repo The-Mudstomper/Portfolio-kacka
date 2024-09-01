@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+title {
+  font-size: xx-large;
+}
 html,
 body {
   margin: 0;
@@ -565,4 +568,12 @@ iframe {
   color: #f1d415;
   background-color: #1c3040;
   transition: background-color 0.3s, color 0.3s;
+}
+.pswp__container,
+.pswp__img,
+.pswp__button,
+.pswp__counter {
+  padding: 30px;
+  transition: transform 0.4s ease-in-out !important;
+  border-radius: 10px;
 }
